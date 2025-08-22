@@ -1,5 +1,5 @@
 [README.md](https://github.com/user-attachments/files/21941749/README.md)
-# 📚 Library Management System (Python + MySQL)
+# Library Management System (Python + MySQL)
 
 This is a **Library Management System** built using **Python** and
 **MySQL** that allows users and administrators to manage library
@@ -12,15 +12,15 @@ records.
 
 ## 🚀 Features
 
-### 👨‍🎓 User Features
+### User Features
 
 -   Register as a new member with personal details.
 -   Secure login system with username and password.
 -   View personal membership details.
 -   Search books by:
-    -   Title\
-    -   Author\
-    -   Genre\
+    -   Title
+    -   Author
+    -   Genre
     -   Availability status
 -   Borrow and return books with automatic status updates.
 -   View all books borrowed by the user.
@@ -36,20 +36,20 @@ records.
 
 ------------------------------------------------------------------------
 
-## 🗄️ Database Schema (MySQL)
+## 🗄️ Database (MySQL)
 
 The project uses a **MySQL database** with the following tables:
 
 -   **MEMBER_INFO** → Stores member details (Name, Age, Country, State,
-    Phone, Email).\
--   **BOOK_RECORDS** → Stores records of borrowed books.\
+    Phone, Email).
+-   **BOOK_RECORDS** → Stores records of borrowed books.
 -   **ALL_BOOKS** → Stores all books in the library with details (Book
-    No, Name, Author, Genre, Status).\
+    No, Name, Author, Genre, Status).
 -   **USERS** → Stores login credentials of registered members.
 
 ------------------------------------------------------------------------
 
-## ⚙️ Tech Stack
+## ⚙️ Languages Used 
 
 -   **Python 3**\
 -   **MySQL Connector for Python**\
@@ -57,9 +57,9 @@ The project uses a **MySQL database** with the following tables:
 
 ------------------------------------------------------------------------
 
-## ▶️ How to Run
+## ▶️ How it works 
 
-1.  Install MySQL and create a database named `library`.\
+1.  Install MySQL and create a database named `library`.
 
 2.  Run the following SQL commands to set up tables:
 
@@ -86,8 +86,6 @@ The project uses a **MySQL database** with the following tables:
     ```
 
 ------------------------------------------------------------------------
-
-## 📌 Author
 
 Developed as a **Computer Science project** for managing library
 operations using Python and MySQL.
