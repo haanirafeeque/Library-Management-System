@@ -3,14 +3,14 @@
 
 This is a **Library Management System** built using **Python** and
 **MySQL** that allows users and administrators to manage library
-operations digitally.\
+operations digitally.
 It provides a simple command-line interface for users to borrow, return,
 and search books, while admins can manage membership and view book
 records.
 
 ------------------------------------------------------------------------
 
-## 🚀 Features
+## Features
 
 ### User Features
 
@@ -25,7 +25,7 @@ records.
 -   Borrow and return books with automatic status updates.
 -   View all books borrowed by the user.
 
-### 🛠️ Admin Features
+### Admin Features
 
 -   Secure admin login.
 -   View all available books.
@@ -36,7 +36,7 @@ records.
 
 ------------------------------------------------------------------------
 
-## 🗄️ Database (MySQL)
+## Database (MySQL)
 
 The project uses a **MySQL database** with the following tables:
 
@@ -49,15 +49,15 @@ The project uses a **MySQL database** with the following tables:
 
 ------------------------------------------------------------------------
 
-## ⚙️ Languages Used 
+## Languages Used 
 
--   **Python 3**\
--   **MySQL Connector for Python**\
+-   **Python 3**
+-   **MySQL Connector for Python**
 -   **MySQL Database**
 
 ------------------------------------------------------------------------
 
-## ▶️ How it works 
+## How it works 
 
 1.  Install MySQL and create a database named `library`.
 
@@ -87,5 +87,4 @@ The project uses a **MySQL database** with the following tables:
 
 ------------------------------------------------------------------------
 
-Developed as a **Computer Science project** for managing library
-operations using Python and MySQL.
+This project was made as a **Computer Science project** by using MySQL and Python!
