@@ -7,12 +7,6 @@
 # CREATE TABLE USERS(NAME varchar(20),PASSWORD varchar(20));
 
 
-
-
-
-
-
-
 import mysql.connector 
 con=mysql.connector.connect(host='localhost',user='root',password='haani2007',database='library')
 cur=con.cursor()
@@ -391,5 +385,6 @@ login()
 
 
     
+
 
 
