@@ -48,7 +48,7 @@ The project uses a **MySQL database** with the following tables:
 
 ------------------------------------------------------------------------
 
-## Languages Used 
+## Languages Used and Modules used
 
 -   **Python 3**
 -   **MySQL Connector for Python**
