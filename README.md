@@ -1,5 +1,4 @@
-[README.md](https://github.com/user-attachments/files/21941749/README.md)
-# Library Management System (Python + MySQL)
+# Library Management System (Python + MySQL)!
 
 This is a **Library Management System** built using **Python** and
 **MySQL** that allows users and administrators to manage library
@@ -12,7 +11,7 @@ records.
 
 ## Features
 
-### User Features
+### User Features:
 
 -   Register as a new member with personal details.
 -   Secure login system with username and password.
@@ -25,7 +24,7 @@ records.
 -   Borrow and return books with automatic status updates.
 -   View all books borrowed by the user.
 
-### Admin Features
+### Admin Features:
 
 -   Secure admin login.
 -   View all available books.
@@ -57,34 +56,4 @@ The project uses a **MySQL database** with the following tables:
 
 ------------------------------------------------------------------------
 
-## How it works 
-
-1.  Install MySQL and create a database named `library`.
-
-2.  Run the following SQL commands to set up tables:
-
-    ``` sql
-    CREATE DATABASE LIBRARY;
-    USE LIBRARY;
-
-    CREATE TABLE MEMBER_INFO (NAME varchar(20), AGE int, Country varchar(40), STATE varchar(50), Phone_No bigint, Email varchar(40));
-    CREATE TABLE BOOK_RECORDS (NAME varchar(20), BOOK_NAME VARCHAR(50), DATE_BORROWED date, DATE_RETURNED date);
-    CREATE TABLE ALL_BOOKS(BOOK_NO INT, BOOK_NAME VARCHAR(50), AUTHOR VARCHAR(50), GENRE VARCHAR(50), STATUS VARCHAR(20) DEFAULT 'AVAILABLE');
-    CREATE TABLE USERS(NAME varchar(20), PASSWORD varchar(20));
-    ```
-
-3.  Update the database connection in the code if needed:
-
-    ``` python
-    con = mysql.connector.connect(host='localhost', user='root', password='your_password', database='library')
-    ```
-
-4.  Run the script:
-
-    ``` bash
-    python CS_PROJECT_SOURCE_CODE.py
-    ```
-
-------------------------------------------------------------------------
-
-This project was made as a **Computer Science project** by using MySQL and Python!
+This project was made as a **Computer Science project** for grade XII by using MySQL and Python!
